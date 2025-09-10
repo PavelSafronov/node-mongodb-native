@@ -8,8 +8,7 @@ import * as sinon from 'sinon';
 // eslint-disable-next-line @typescript-eslint/no-restricted-imports
 import { refreshKMSCredentials } from '../../../src/client-side-encryption/providers';
 import {
-  AWSCredentialProvider,
-  AWSCredentials,
+  type AWSCredentials,
   AWSTemporaryCredentialProvider,
   type CommandOptions,
   Connection,
